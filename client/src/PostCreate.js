@@ -24,10 +24,10 @@ export default () => {
           onChange={e => setTitle(e.target.value)}
           className="form-control"
         />
+        <button className="btn btn-primary" type="submit">
+          Submit
+        </button>
       </form>
-      <button className="btn btn-primary" type="submit">
-        Submit
-      </button>
     </div>
   );
 };
