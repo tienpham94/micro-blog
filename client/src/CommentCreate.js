@@ -18,7 +18,7 @@ export default ({ postId }) => {
     <div>
       <form>
         <div className="form-group">
-          <label>New COmment</label>
+          <label>New Comment</label>
           <input
             value={content}
             onChange={e => setContent(e.target.value)}
