@@ -5,7 +5,6 @@ export default () => {
   const [title, setTitle] = useState("");
 
   const onSubmit = async e => {
-    console.log("sbmit");
     e.preventDefault();
 
     await axios.post("http://localhost:4000/posts", {
